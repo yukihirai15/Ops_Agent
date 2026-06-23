@@ -51,6 +51,7 @@ jobs:
         run: |
           docker run -d --name opsagent-ci \
             -e ANTHROPIC_API_KEY=test-key \
+            -e GROQ_API_KEY=${{ secrets.GROQ_API_KEY }} \
             -p 8000:8000 \
             opsagent:${{ github.sha }}
           sleep 8
