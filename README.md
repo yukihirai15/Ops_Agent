@@ -7,7 +7,7 @@ Part of the **[PulseStack](https://github.com/yukihirai15/prod-api-platform)** e
 
 ---
 
-[![CI](https://github.com/yukihirai15/opsagent/actions/workflows/ci.yml/badge.svg)](https://github.com/yukihirai15/opsagent/actions)
+[![CI](https://github.com/yukihirai15/Ops_Agent/actions/workflows/ci.yml/badge.svg)](https://github.com/yukihirai15/Ops_Agent/actions)
 [![Python](https://img.shields.io/badge/python-3.12-blue.svg)](https://python.org)
 [![LangGraph](https://img.shields.io/badge/LangGraph-0.2-green.svg)](https://langchain-ai.github.io/langgraph/)
 [![Docker](https://img.shields.io/badge/docker-ready-2496ED.svg)](https://docker.com)
@@ -16,6 +16,8 @@ Part of the **[PulseStack](https://github.com/yukihirai15/prod-api-platform)** e
 ---
 
 ## What It Does
+
+![OpsAgent Slack Demo](docs/demo.png)
 
 OpsAgent sits between Prometheus AlertManager and your on-call team. When an alert fires:
 
@@ -94,7 +96,7 @@ The agent iterates autonomously until it completes all four tools or hits `max_i
 ### 1. Clone & configure
 
 ```bash
-git clone https://github.com/yukihirai15/opsagent.git
+git clone https://github.com/yukihirai15/Ops_Agent.git
 cd opsagent
 cp .env.example .env
 # Edit .env — add ANTHROPIC_API_KEY and SLACK_WEBHOOK_URL
