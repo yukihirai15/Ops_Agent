@@ -1,6 +1,6 @@
 # OpsAgent 🤖
 
-**Autonomous AI DevOps agent — monitors Prometheus alerts, diagnoses root cause, and suggests fixes.**
+**Autonomous AI DevOps agent - monitors Prometheus alerts, diagnoses root cause, and suggests fixes.**
 
 Built with LangChain + LangGraph, FastAPI, Prometheus, and Slack webhooks.  
 Part of the **[PulseStack](https://github.com/yukihirai15/prod-api-platform)** ecosystem.
