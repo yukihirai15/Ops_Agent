@@ -1,0 +1,20 @@
+# OpsAgent dependencies
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# LangChain / LangGraph
+langchain
+#langchain-anthropic==0.2.0
+langchain-groq
+langgraph
+groq
+
+# HTTP client
+httpx
+
+# Testing
+pytest
+pytest-asyncio
+httpx  # also used for TestClient
